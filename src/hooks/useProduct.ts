@@ -36,10 +36,6 @@ export const useProduct = ({
     setCounter(value);
   }, [value]);
 
-  // useEffect(() => {
-  //   isMounted.current = true;
-  // }, []);
-
   return {
     counter,
     maxCount: initialValues?.maxCount,
